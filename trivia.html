@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+      <html lang="en">
+          <head>
+
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+                <link href="styles.css" rel="stylesheet">
+                <title>Trivia!</title>
+
+
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+
+              <!--To include Boostrap-->
+
+              <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+              <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+              <link href="styles.css" rel="stylesheet">
+
+
+              <title>Trivia</title>
+
+          </head>
+          <body>
+            <!--Navigation Bar-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#">Go to -> </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://ide-1f7e3409c55c478cb19ce104a31b70ee-8081.cs50.ws/index.html">Home </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://ide-1f7e3409c55c478cb19ce104a31b70ee-8081.cs50.ws/about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://ide-1f7e3409c55c478cb19ce104a31b70ee-8081.cs50.ws/mycreations.html">My Creations</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="https://ide-1f7e3409c55c478cb19ce104a31b70ee-8081.cs50.ws/trivia.html">Trivia<span class="sr-only">(current)</span></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <!--Navigation Bar-->
+
+            <div class="container p-3 my-3 bg-dark text-white"><h2><b>ANSWER THESE QUESTIONS IF YOU CAN!</b></h2></div>
+            <br>
+            <BR>
+               <div class="container">
+
+            <div class="section">
+                <h2>Part 1 </h2>
+                <hr>
+
+                <!-- TODO: Add multiple choice question here -->
+                <h3>In which year will the next major Tech Crisis going to happen?</h3>
+
+                <button class = "incorrect">2050</button>
+                <button class = "incorrect">2028</button>
+                <button class = "incorrect">2025</button>
+                <button class = "correct">2038</button>
+
+                <p id = "feedback1"></p>
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2</h2>
+                <hr>
+
+                <!-- TODO: Add free response question here -->
+                <h3>What is the 100th digit of pi?(Enter a digit)</h3>
+                <input type = "text"></input>
+                <button id= "check">Check Answer</button>
+
+                <p id = "feedback2"></p>
+
+            </div>
+
+        </div>
+
+
+            </div>
+          </body>
+           <script src="script.js"></script>
+      </html>
+
+
